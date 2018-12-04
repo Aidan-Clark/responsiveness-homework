@@ -32,8 +32,8 @@ header, .experience {
 }
 
 /* Media */
-/* Using Galaxy S5 as 2nd screen */
-@media screen and (max-width: 360px) {
+/* Affects any width between 338px - 1200px */
+@media screen and (min-width: 338px) and (max-width: 1200px) {
 	header, .experience {
 		border: 0px;
 		padding: 0px;

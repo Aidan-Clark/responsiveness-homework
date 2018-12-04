@@ -47,10 +47,10 @@ body {
 }
 
 /* Media */
-/* Using Galaxy S5 as 2nd screen */
+/* Affects any width between 338px - 1200px */
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 338px) and (max-width: 500px) {
   .main-content {
-    margin: 0px 20px;
+    margin: 0px 5.5%;
   }
 }
