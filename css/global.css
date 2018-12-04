@@ -45,3 +45,12 @@ body {
 .main-content {
   margin: 0 80px;
 }
+
+/* Media */
+/* Affects any width between 338px - 1200px */
+
+@media screen and (min-width: 338px) and (max-width: 500px) {
+  .main-content {
+    margin: 0px 5.5%;
+  }
+}

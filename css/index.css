@@ -30,3 +30,21 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+/* Media */
+/* Affects any width between 338px - 1200px */
+@media screen and (min-width: 338px) and (max-width: 1200px) {
+	header, .experience {
+		border: 0px;
+		padding: 0px;
+	}
+
+	.left, .employment-history {
+		display: none;
+	}
+
+	.right {
+		float: none;
+		width: 100%;
+	}
+}
