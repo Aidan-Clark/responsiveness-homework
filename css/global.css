@@ -45,3 +45,12 @@ body {
 .main-content {
   margin: 0 80px;
 }
+
+/* Media */
+/* Using Galaxy S5 as 2nd screen */
+
+@media screen and (max-width: 360px) {
+  .main-content {
+    margin: 0px 20px;
+  }
+}
